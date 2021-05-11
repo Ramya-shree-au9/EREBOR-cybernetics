@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .body{
+    background-color:#E5E7E9; 
+   margin: 0 4%;
+  }
+.leftview{
+    background-image: url('https://image.shutterstock.com/image-photo/golden-retriever-dog-running-on-260nw-206647846.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 10%;
+    /* margin-left: 2%; */
+    line-height: 250%;
+    color: blue;
+}
+
+.rightview{
+    text-align: center;
+}
+.row{
+    display: flex;
+    margin: 3% ;
+   
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    height: 84vh;
+}
+
+.textalign{
+    padding-left: 20%;
+    font-size: 120%;
+    font-weight: 800;
+}
+.sectiondata{
+    /* margin: auto; */
+    display: flex;
+}
+.sectiondata p {
+    margin: 4% 1% 6% 12%;
+    /* padding-bottom: 3%; */
+    height: 20%;
+    cursor: pointer;
+}
+
+.leftsec{
+    color: red;
+    border-bottom: 2px solid red;
+    margin-left: 0;
+    padding-left: 0;
+}
+.sectiondata p:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.headline{
+    font-size: 75%;
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 100%;
+    display: inline;
+}
+
+.inputsection{
+    margin: 6% 2% 0 2%;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);  
+}
+
+.inputsection i{
+    color: rgba(0, 0, 0, 0.555);
+    margin-right: 3%;
+}
+
+.eyeicon{
+    float: right;
+}
+.Loginsection{
+    padding: 2%;
+    width: 46%;
+    margin: auto;
+    /* border: 2px solid rgba(0, 0, 0, 0.301); */
+    background-color: white;
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+}
+
+.frgpsw{
+    float: right;
+    color: orange;
+    font-size: 80%;
+}
+.headsection{
+    line-height: 1%;
+    color: rgba(255, 0, 0, 0.548);
+    margin-top: 8%;
+}
+.changedec{
+    font-weight: 300;
+}
+.subhead{
+    font-size: 70%;
+}
+.loginbtn{
+    margin: 3% 0;
+    width: 100%;
+}
+
+.bottomsection{
+    color: red;
+    font-size: 83%;
+}
+
+.footer{
+    color: rgba(0, 0, 255, 0.897);
+    font-size: 70%;
+    margin-top: 8%;
+}
